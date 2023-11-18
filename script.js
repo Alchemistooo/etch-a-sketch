@@ -10,9 +10,15 @@ function createDiv() {
   newDiv.style.width = divSize;
   container.appendChild(newDiv);
 }
-createDiv()
-
 
 function fillGrid() {
-  
+  let divAmount = sizePrompt * sizePrompt;
+  let divCounter = divAmount;
+
+  while (divCounter > 0){
+    createDiv();
+    divCounter--;
+  }
 }
+
+fillGrid();

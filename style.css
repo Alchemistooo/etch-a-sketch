@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: slategray;
 }
 .container {
   display: flex;
@@ -16,6 +17,6 @@ body {
   width: 800px;
   background-color: darkslategrey;
   flex-wrap: wrap;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
