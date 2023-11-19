@@ -7,6 +7,7 @@
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: slategray;
@@ -17,6 +18,17 @@ body {
   width: 800px;
   background-color: darkslategrey;
   flex-wrap: wrap;
-  /* border: 1px solid black; */
 }
 
+.gridDiv {
+  background-color: white;
+}
+
+.newGrid {
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 26px;
+  padding: 5px;
+  border-radius: 15px;
+  width: 300px;
+}
